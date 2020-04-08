@@ -1,0 +1,140 @@
+## YAML Template.
+---
+name: AoE2Taunts
+main: de.stalincraft.Main
+version: 2.1
+author:
+    ## Please don't remove the author KastenKlicker.
+    - KastenKlicker
+description: An AoE2 Taunts Plugin.
+commands:
+    1:
+        description: Says Yes.
+        usage: /1
+    2:
+        description: Says No.
+        usage: /2
+    3: 
+        description: Says Food please.
+        usage: /3
+    4: 
+        description: Says Wood please.
+        usage: /4
+    5: 
+        description: Says Gold please.
+        usage: /5
+    6: 
+        description: Says Stone please.
+        usage: /6
+    7: 
+        description: Says Ahhhh!
+        usage: /7
+    8: 
+        description: Says All hail, king of the losers!
+        usage: /8
+    9: 
+        description: Says Ooooh!
+        usage: /9
+    10: 
+        description: Says I'll beat you back to Age of Empires.
+        usage: /10
+    11: 
+        description: Says Hiahiahiahia!
+        usage: /11
+    12: 
+        description: Says Ah! being rushed.
+        usage: /12
+    13: 
+        description: Says Sure, blame it on your ISP.
+        usage: /13
+    14: 
+        description: Says Start the game already!
+        usage: /14
+    15: 
+        description: Says Don't point that thing on me!
+        usage: /15
+    16: 
+        description: Says Enemy sighted!
+        usage: /16
+    17: 
+        description: Says It is good to be the king.
+        usage: /17
+    18: 
+        description: Says Monk! I need a monk!
+        usage: /18
+    19: 
+        description: Says Long tine, no siege.
+        usage: /19
+    20: 
+        description: Says My granny could better scrap than that.
+        usage: /20
+    21: 
+        description: Says Nice town, I'll take it.
+        usage: /21
+    22: 
+        description: Says Quit touching me!
+        usage: /22
+    23: 
+        description: Says Raiding party!
+        usage: /23
+    24: 
+        description: Says Dadgum.
+        usage: /24
+    25: 
+        description: Says Eh, smite me.
+        usage: /25
+    26: 
+        description: Says The wonder, the wonder, the... no!
+        usage: /26
+    27: 
+        description: Says You played two hours to die like this?
+        usage: /27
+    28: 
+        description: Says Yeah, well, you should see the other guy.
+        usage: /28
+    29: 
+        description: Says Roggan.
+        usage: /29
+    30: 
+        description: Says Wololo.
+        usage: /30
+    31: 
+        description: Says Attack an enemy now.
+        usage: /31
+    32: 
+        description: Says Cease creating extra villagers.
+        usage: /32
+    33: 
+        description: Says Create extra villagers.
+        usage: /33
+    34: 
+        description: Says Build a navy.
+        usage: /34
+    35: 
+        description: Says Stop building a navy.
+        usage: /35
+    36: 
+        description: Says Wait for my signal to attack.
+        usage: /36
+    37: 
+        description: Says Build a wonder.
+        usage: /37
+    38: 
+        description: Says Give me your extra resources.
+        usage: /38
+    39: 
+        description: Says *dingdingding*
+        usage: /39
+    40: 
+        description: Says *dong*
+        usage: /40
+    41: 
+        description: Says *phuuuuu*
+        usage: /41
+    42: 
+        description: Says What age are you in?
+        usage: /42
+        
+    taunts:
+        description: Shows all taunts to the player.
+        usage: /taunts
