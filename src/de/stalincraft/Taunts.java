@@ -150,6 +150,198 @@ public class Taunts implements CommandExecutor{
         if (label.equalsIgnoreCase("42")) {
             Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "What age are you in?");
 	}
+        
+        // Taunts from the Definitiv Edition
+        if (label.equalsIgnoreCase("43")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "What is your strategy?");
+	}
+        if (label.equalsIgnoreCase("44")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "How many resources do you have?");
+	}
+        if (label.equalsIgnoreCase("45")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Retreat now!");
+	}
+        if (label.equalsIgnoreCase("46")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Flare the location of your army.");
+	}
+        if (label.equalsIgnoreCase("47")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack in direction of the flared location.");
+	}
+        if (label.equalsIgnoreCase("48")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "I'm being attacked, please help!");
+	}
+        if (label.equalsIgnoreCase("49")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Build a forward base at the flared location.");
+	}
+        if (label.equalsIgnoreCase("50")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Build a fortification at the flared location.");
+	}
+        if (label.equalsIgnoreCase("51")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Keep your army close to mine and fight with me.");
+	}
+        if (label.equalsIgnoreCase("52")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Build a market at the flared location. ");
+	}
+        if (label.equalsIgnoreCase("53")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Rebuild your base at the flared location.");
+	}
+        if (label.equalsIgnoreCase("54")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Build a wall between the two flared locations.");
+	}
+        if (label.equalsIgnoreCase("55")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Build a wall around your town.");
+	}
+        if (label.equalsIgnoreCase("56")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Train units which counter the enemy's army.");
+	}
+        if (label.equalsIgnoreCase("57")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Stop training counter units.");
+	}
+        if (label.equalsIgnoreCase("58")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Prepare to send me all your resources so I can vanquish our foes!");
+	}
+        if (label.equalsIgnoreCase("59")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Stop sending me extra resources.");
+	}
+        if (label.equalsIgnoreCase("60")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Prepare to train a large army, I will send you as many resources as I can spare");
+	}
+        if (label.equalsIgnoreCase("61")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack player 1!");
+	}
+        if (label.equalsIgnoreCase("62")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack player 2!");
+	}
+        if (label.equalsIgnoreCase("63")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack player 3!");
+	}
+        if (label.equalsIgnoreCase("64")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack player 4!");
+	}
+        if (label.equalsIgnoreCase("65")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack player 5!");
+	}
+        if (label.equalsIgnoreCase("66")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack player 6!");
+	}
+        if (label.equalsIgnoreCase("67")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack player 7!");
+	}
+        if (label.equalsIgnoreCase("68")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack player 8!");
+	}
+        if (label.equalsIgnoreCase("69")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Delete the object on the flared location.");
+	}
+        if (label.equalsIgnoreCase("70")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Delete your excess villagers.");
+	}
+        if (label.equalsIgnoreCase("71")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Delete excess warships.");
+	}
+        if (label.equalsIgnoreCase("72")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Focus on training infantry units.");
+	}
+        if (label.equalsIgnoreCase("73")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Focus on training cavalry units.");
+	}
+        if (label.equalsIgnoreCase("74")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Focus on training ranged units.");
+	}
+        if (label.equalsIgnoreCase("75")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Focus on training warships.");
+	}
+        if (label.equalsIgnoreCase("76")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Militia.");
+	}
+        if (label.equalsIgnoreCase("77")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Archers.");
+	}
+        if (label.equalsIgnoreCase("78")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Skirmishers.");
+	}
+        if (label.equalsIgnoreCase("79")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with a mix of Archers and Skirmishers.");
+	}
+        if (label.equalsIgnoreCase("80")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Scout Cavalry.");
+	}
+        if (label.equalsIgnoreCase("81")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Men-at-Arms.");
+	}
+        if (label.equalsIgnoreCase("82")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Eagle Scouts.");
+	}
+        if (label.equalsIgnoreCase("83")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Towers.");
+	}
+        if (label.equalsIgnoreCase("84")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Crossbowmen.");
+	}
+        if (label.equalsIgnoreCase("85")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Cavalry Archers.");
+	}
+        if (label.equalsIgnoreCase("86")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Unique Units.");
+	}
+        if (label.equalsIgnoreCase("87")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Knights.");
+	}
+        if (label.equalsIgnoreCase("88")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Battle Elephants.");
+	}
+        if (label.equalsIgnoreCase("89")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Scorpions.");
+	}
+        if (label.equalsIgnoreCase("90")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Monks.");
+	}
+        if (label.equalsIgnoreCase("91")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Monks and Mangonels.");
+	}
+        if (label.equalsIgnoreCase("92")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Eagle Warriors.");
+	}
+        if (label.equalsIgnoreCase("93")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Halberdiers and Rams.");
+	}
+        if (label.equalsIgnoreCase("94")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Elite Eagle Warriors.");
+	}
+        if (label.equalsIgnoreCase("95")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Arbalests.");
+	}
+        if (label.equalsIgnoreCase("96")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Champions.");
+	}
+        if (label.equalsIgnoreCase("97")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Galleys.");
+	}
+        if (label.equalsIgnoreCase("98")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Fire Galleys.");
+	}
+        if (label.equalsIgnoreCase("99")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Demolition Rafts.");
+	}
+        if (label.equalsIgnoreCase("100")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with War Galleys.");
+	}
+        if (label.equalsIgnoreCase("101")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Fire Ships.");
+	}
+        if (label.equalsIgnoreCase("102")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Attack the enemy with Unique Warships.");
+	}
+        if (label.equalsIgnoreCase("103")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Use an Onager to cut down trees at the flared location.");
+	}
+        if (label.equalsIgnoreCase("104")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "Don't resign!");
+	}
+        if (label.equalsIgnoreCase("105")) {
+            Bukkit.broadcastMessage("<" + sender.getName()+ "> " + "You can resign again.");
+	}
+        
         return true;
         
     }

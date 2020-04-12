@@ -2,7 +2,7 @@
 ---
 name: AoE2Taunts
 main: de.stalincraft.Main
-version: 2.1
+version: 3.0
 author:
     ## Please don't remove the author KastenKlicker.
     - KastenKlicker
@@ -134,6 +134,195 @@ commands:
     42: 
         description: Says What age are you in?
         usage: /42
+    43: 
+        description: Says What is your strategy?
+        usage: /43
+    44: 
+        description: Says How many resources do you have? 
+        usage: /44
+    45: 
+        description: Says Retreat now!
+        usage: /45
+    46: 
+        description: Says Flare the location of your army.
+        usage: /46
+    47: 
+        description: Says Attack in direction of the flared location.
+        usage: /47
+    48: 
+        description: Says I'm being attacked, please help! 
+        usage: /48
+    49: 
+        description: Says Build a forward base at the flared location.
+        usage: /49
+    50: 
+        description: Says Build a fortification at the flared location.
+        usage: /50
+    51:
+        description: Says Keep your army close to mine and fight with me.
+        usage: /51
+    52:
+        description: Says Build a market at the flared location.
+        usage: /52
+    53: 
+        description: Says Rebuild your base at the flared location.
+        usage: /53
+    54: 
+        description: Says Build a wall between the two flared locations.
+        usage: /54
+    55: 
+        description: Says Build a wall around your town. 
+        usage: /55
+    56: 
+        description: Says Train units which counter the enemy's army. 
+        usage: /56
+    57: 
+        description: Says Stop training counter units.
+        usage: /57
+    58: 
+        description: Says Prepare to send me all your resources so I can vanquish our foes!
+        usage: /58
+    59: 
+        description: Says Stop sending me extra resources. 
+        usage: /59
+    60: 
+        description: Says Prepare to train a large army, I will send you as many resources as I can spare. 
+        usage: /60
+    61:
+        description: Says Attack player 1!
+        usage: /61
+    62:
+        description: Says Attack player 2!
+        usage: /62
+    63: 
+        description: Says Attack player 3!
+        usage: /63
+    64: 
+        description: Says Attack player 4!
+        usage: /64
+    65: 
+        description: Says Attack player 5!
+        usage: /65
+    66: 
+        description: Says Attack player 6!
+        usage: /66
+    67: 
+        description: Says Attack player 7!
+        usage: /67
+    68: 
+        description: Says Attack player 8!
+        usage: /68
+    69: 
+        description: Says Delete the object on the flared location.
+        usage: /69
+    70: 
+        description: Says Delete your excess villagers.
+        usage: /70
+    71:
+        description: Says Delete excess warships.
+        usage: /71
+    72:
+        description: Says Focus on training infantry units.
+        usage: /72
+    73: 
+        description: Says Focus on training cavalry units. 
+        usage: /73
+    74: 
+        description: Says Focus on training ranged units.
+        usage: /74
+    75: 
+        description: Says Focus on training warships.
+        usage: /75
+    76: 
+        description: Says Attack the enemy with Militia.
+        usage: /76
+    77: 
+        description: Says Attack the enemy with Archers.
+        usage: /77
+    78: 
+        description: Says Attack the enemy with Skirmishers.
+        usage: /78
+    79: 
+        description: Says Attack the enemy with a mix of Archers and Skirmishers.
+        usage: /79
+    80: 
+        description: Says Attack the enemy with Scout Cavalry.
+        usage: /80
+    81:
+        description: Says Attack the enemy with Men-at-Arms.
+        usage: /81
+    82:
+        description: Says Attack the enemy with Eagle Scouts. 
+        usage: /82
+    83: 
+        description: Says Attack the enemy with Towers.
+        usage: /83
+    84: 
+        description: Says Attack the enemy with Crossbowmen.
+        usage: /84
+    85: 
+        description: Says Attack the enemy with Cavalry Archers.
+        usage: /85
+    86: 
+        description: Says Attack the enemy with Unique Units.
+        usage: /86
+    87: 
+        description: Says Attack the enemy with Knights.
+        usage: /87
+    88: 
+        description: Says Attack the enemy with Battle Elephants.
+        usage: /88
+    89: 
+        description: Says Attack the enemy with Scorpions. 
+        usage: /89
+    90: 
+        description: Says Attack the enemy with Monks.
+        usage: /90
+    91:
+        description: Says Attack the enemy with Monks and Mangonels.
+        usage: /91
+    92:
+        description: Says Attack the enemy with Eagle Warriors.
+        usage: /92
+    93: 
+        description: Says Attack the enemy with Halberdiers and Rams.
+        usage: /93
+    94: 
+        description: Says Attack the enemy with Elite Eagle Warriors.
+        usage: /94
+    95: 
+        description: Says Attack the enemy with Arbalests.
+        usage: /95
+    96: 
+        description: Says Attack the enemy with Champions.
+        usage: /96
+    97: 
+        description: Says Attack the enemy with Galleys.
+        usage: /97
+    98: 
+        description: Says Attack the enemy with Fire Galleys. 
+        usage: /98
+    99: 
+        description: Says Attack the enemy with Demolition Rafts. 
+        usage: /99
+    100: 
+        description: Says Attack the enemy with War Galleys.
+        usage: /100
+    101:
+        description: Says Attack the enemy with Fire Ships. 
+        usage: /101
+    102:
+        description: Says Attack the enemy with Unique Warships.
+        usage: /102
+    103: 
+        description: Says Use an Onager to cut down trees at the flared location.
+        usage: /103
+    104: 
+        description: Says Don't resign!
+        usage: /104
+    105: 
+        description: Says You can resign again.
+        usage: /105
         
     taunts:
         description: Shows all taunts to the player.
