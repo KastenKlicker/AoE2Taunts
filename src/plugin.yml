@@ -2,7 +2,7 @@
 ---
 name: AoE2Taunts
 main: de.stalincraft.Main
-version: 3.0
+version: 3.1
 author:
     ## Please don't remove the author KastenKlicker.
     - KastenKlicker
@@ -134,6 +134,9 @@ commands:
     42: 
         description: Says What age are you in?
         usage: /42
+        
+        #taunts from Definitiv Edition
+        
     43: 
         description: Says What is your strategy?
         usage: /43
@@ -327,3 +330,7 @@ commands:
     taunts:
         description: Shows all taunts to the player.
         usage: /taunts
+    
+    tauntsdef:
+        description: Shows all Definitiv Edition taunts to the player.
+        usage: /tauntsdef

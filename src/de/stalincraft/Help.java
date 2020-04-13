@@ -71,6 +71,8 @@ public class Help implements CommandExecutor{
             sender.sendMessage(ChatColor.GREEN + "/41 *phuuuuu*");
             sender.sendMessage(ChatColor.GREEN + "/42 Says What age are you in?");
             
+            sender.sendMessage(ChatColor.GREEN +"/tauntsdef Lists all taunts from the Definitiv Edition.");
+            
             TextComponent message = new TextComponent( "Go to the Plugins website!" );
             message.setColor( net.md_5.bungee.api.ChatColor.GOLD );
             message.setBold( true );

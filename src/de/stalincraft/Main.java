@@ -132,6 +132,9 @@ public class Main extends JavaPlugin {
         
         //Command from Help Class
         this.getCommand("taunts").setExecutor(new Help());
+        
+        //Command from HelpDefinitivEdition Class
+        this.getCommand("tauntsdef").setExecutor(new HelpDefinitvEdition());
     }
 
     /**
