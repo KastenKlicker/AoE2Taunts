@@ -1,0 +1,131 @@
+package de.kastenklicker.aoe2taunts;
+
+/**
+ * @author KastenKlicker
+ *
+ * Stores all taunts in one Array.
+ */
+
+public class Taunts {
+    private final String[] tauntsArray = {
+        "Array of all taunts",
+            //Taunts of the Original Edition
+            "Yes.",
+            "No.",
+            "Food please.",
+            "Wood please.",
+            "Gold please.",
+            "Stone please.",
+            "Ahhhh!",
+            "All hail, king of the losers!",
+            "Ooooh!",
+            "I'll beat you back to Age of Empires.",
+            "Hiahiahiahia!",
+            "Ah! being rushed.",
+            "Sure, blame it on your ISP.",
+            "Start the game already!",
+            "Don't point that thing at me!",
+            "Enemy sighted!",
+            "It is good to be the king.",
+            "Monk! I need a monk!",
+            "Long time, no siege.",
+            "My granny could scrap better than that.",
+            "Nice town, I'll take it.",
+            "Quit touching me!",
+            "Raiding party!",
+            "Dadgum.",
+            "Eh, smite me.",
+            "The wonder, the wonder, the... no!",
+            "You played two hours to die like this?",
+            "Yeah, well, you should see the other guy.",
+            "Roggan.",
+            "Wololo.",
+            "Attack an enemy now.",
+            "Cease creating extra villagers.",
+            "Create extra villagers.",
+            "Build a navy.",
+            "Stop building a navy.",
+            "Wait for my signal to attack.",
+            "Build a wonder.",
+            "Give me your extra resources.",
+            "*dingdingding*",
+            "*dong*",
+            "*phuuuuu*",
+            "What age are you in?",
+
+            //Taunts of the Definitive Edition
+
+            "What is your strategy?",
+            "How many resources do you have?",
+            "Retreat now!",
+            "Flare the location of your army.",
+            "Attack in direction of the flared location.",
+            "I'm being attacked, please help!",
+            "Build a forward base at the flared location.",
+            "Build a fortification at the flared location.",
+            "Keep your army close to mine and fight with me.",
+            "Build a market at the flared location.",
+            "Rebuild your base at the flared location.",
+            "Build a wall between the two flared locations.",
+            "Build a wall around your town.",
+            "Train units which counter the enemy's army.",
+            "Stop training counter units.",
+            "Prepare to send me all your resources so I can vanquish our foes!",
+            "Stop sending me extra resources.",
+            "Prepare to train a large army, I will send you as many resources as I can spare.",
+            "Attack player 1!",
+            "Attack player 2!",
+            "Attack player 3!",
+            "Attack player 4!",
+            "Attack player 5!",
+            "Attack player 6!",
+            "Attack player 7!",
+            "Attack player 8!",
+            "Delete the object on the flared location.",
+            "Delete your excess villagers.",
+            "Delete excess warships.",
+            "Focus on training infantry units.",
+            "Focus on training cavalry units.",
+            "Focus on training ranged units.",
+            "Focus on training warships.",
+            "Attack the enemy with Militia.",
+            "Attack the enemy with Archers.",
+            "Attack the enemy with Skirmishers.",
+            "Attack the enemy with a mix of Archers and Skirmishers.",
+            "Attack the enemy with Scout Cavalry.",
+            "Attack the enemy with Men-at-Arms.",
+            "Attack the enemy with Eagle Scouts.",
+            "Attack the enemy with Towers.",
+            "Attack the enemy with Crossbowmen.",
+            "Attack the enemy with Cavalry Archers.",
+            "Attack the enemy with Unique Units.",
+            "Attack the enemy with Knights.",
+            "Attack the enemy with Battle Elephants.",
+            "Attack the enemy with Scorpions.",
+            "Attack the enemy with Monks.",
+            "Attack the enemy with Monks and Mangonels.",
+            "Attack the enemy with Eagle Warriors.",
+            "Attack the enemy with Halberdiers and Rams.",
+            "Attack the enemy with Elite Eagle Warriors.",
+            "Attack the enemy with Arbalests.",
+            "Attack the enemy with Champions.",
+            "Attack the enemy with Galleys.",
+            "Attack the enemy with Fire Galleys.",
+            "Attack the enemy with Demolition Rafts.",
+            "Attack the enemy with War Galleys.",
+            "Attack the enemy with Fire Ships.",
+            "Attack the enemy with Unique Warships.",
+            "Use an Onager to cut down trees at the flared location.",
+            "Don't resign!",
+            "You can resign again.",
+
+    };
+
+    /**
+     *
+     * @return String[] returns all taunts.
+     */
+    public String[] getTauntsArray() {
+        return this.tauntsArray;
+    }
+}

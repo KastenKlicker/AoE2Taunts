@@ -1,0 +1,6 @@
+"Yes."
+"No."
+"Food please."
+"Wood please."
+"Gold please."
+"Stone please."

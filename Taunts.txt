@@ -43,7 +43,7 @@ List of all AoE2 Taunts:
 41 	*phuuuuu* 	
 42 	What age are you in?
 
-Taunts from Devinitv Edition:
+Taunts from Definitive Edition:
 
 43 	What is your strategy? 	
 44 	How many resources do you have? 	
