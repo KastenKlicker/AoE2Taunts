@@ -25,7 +25,7 @@ public class AoE2Taunts extends JavaPlugin {
 
         //Commands from the Commands Class
         Commands commands = new Commands();
-        Objects.requireNonNull(this.getCommand("taunts")).setExecutor(commands);
+        Objects.requireNonNull(this.getCommand("tauntsorg")).setExecutor(commands);
 
         Objects.requireNonNull(this.getCommand("tauntsdef")).setExecutor(commands);
 

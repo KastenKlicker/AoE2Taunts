@@ -1,8 +1,9 @@
 name: AoE2Taunts
-version: 4.0
+version: 4.1
 main: de.kastenklicker.aoe2taunts.AoE2Taunts
 author: KastenKlicker
 description: An AoE2 Taunts Plugin
+api-version: 1.16
 commands:
 
   taunt:
