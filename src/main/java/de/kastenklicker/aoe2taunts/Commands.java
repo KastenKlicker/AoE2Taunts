@@ -9,6 +9,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
 
 /**
  *
@@ -24,10 +25,10 @@ public class Commands implements CommandExecutor {
         private final String[] tauntsArray = this.TauntsClass.getTauntsArray();
 
     @Override
-    public boolean onCommand(CommandSender commandSender, Command command, String s, String[] strings) {
+    public boolean onCommand(CommandSender commandSender, Command command, String s, String[] args) {
 
         //Help command for the taunts of the original edition
-        if (s.equalsIgnoreCase("taunts")) {
+        if (s.equalsIgnoreCase("tauntsorg")) {
             commandSender.sendMessage(ChatColor.GREEN + "The following taunts from the original game are available:");
             for (int i = 1; i <= 42 && i < this.tauntsArray.length; i++) {
                 commandSender.sendMessage(ChatColor.GREEN + "/" + i + " " + this.tauntsArray[i]);
@@ -64,11 +65,30 @@ public class Commands implements CommandExecutor {
             return true;
         }
 
-        //Taunts commands
-        if (Integer.parseInt(s) >= 1 && Integer.parseInt(s) < tauntsArray.length) {
-            Bukkit.broadcastMessage("<" + commandSender.getName() + "> " + this.tauntsArray[Integer.parseInt(s)]);
-            return true;
+        //Taunt command
+        if (s.equalsIgnoreCase("taunt")) {
+            try {
+
+                int id = Integer.parseInt(args[0]);
+
+                if (args.length == 1 && id > 0 && id < tauntsArray.length) {
+
+                    Player sender = Bukkit.getPlayer(commandSender.getName());
+                    assert sender != null;
+
+                    String message = this.tauntsArray[id];
+                    sender.chat(message);
+
+                    return true;
+                }
+            }
+            catch (Exception e) {
+
+                return false;
+            }
         }
+
+
 
         return false;
     }

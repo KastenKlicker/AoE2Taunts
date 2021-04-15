@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="AoE2Taunts:jar">
-    <output-path>$USER_HOME$/Spigot/paper-1.16.4/plugins</output-path>
+  <artifact type="jar" name="AoE2Taunts.jar">
+    <output-path>$USER_HOME$/Spigot/plugins</output-path>
     <root id="archive" name="AoE2Taunts.jar">
       <element id="module-output" name="AoE2Taunts" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/spigotmc/spigot-api/1.16.4-R0.1-SNAPSHOT/spigot-api-1.16.4-R0.1-20210102.035121-41.jar" path-in-jar="/" />

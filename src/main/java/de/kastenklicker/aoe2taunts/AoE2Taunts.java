@@ -29,12 +29,7 @@ public class AoE2Taunts extends JavaPlugin {
 
         Objects.requireNonNull(this.getCommand("tauntsdef")).setExecutor(commands);
 
-        final Taunts TauntsClass = new Taunts();
-        final String[] tauntsArray = TauntsClass.getTauntsArray();
-
-        for (int i = 1; i < tauntsArray.length; i++) {
-            Objects.requireNonNull(this.getCommand(Integer.toString(i))).setExecutor(commands);
-        }
+        Objects.requireNonNull(this.getCommand("taunt")).setExecutor(commands);
 
     }
 
