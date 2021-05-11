@@ -1,4 +1,5 @@
 # AoE2Taunts
+<img alt="GitHub all releases" src="https://img.shields.io/github/downloads/kastenklicker/aoe2taunts/total?color=green&logo=github&style=flat-square">
 KastenKlickers repository for my Spigot Plugin AoE2 Taunts.
 
 Look here for more Informations: 
